@@ -1,0 +1,135 @@
+
+@font-face {font-family:'jak';src: url('/fonts/jak.otf');}
+body {
+    font-family: jak;
+    background-color: #ffb2b6; 
+    color: #3d2a3e;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+header {
+    background-color: #e76e82;
+    width: 100%;
+    padding: 20px;
+    text-align: center;
+}
+h1 {
+    margin: 0;
+    font-size: 2.5em;
+    color: #fff;
+}
+
+header {
+    font-family: jak;
+   
+    background-color: #ffb2b6; 
+    -webkit-background-size: cover;
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+}
+.navigation { 
+    position: fixed;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    
+    margin: 0 auto;
+    top: 5%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #e96f89;
+    border-radius: 50px;
+   
+  
+}
+
+
+.menu {
+    max-width: 1200px; 
+    margin: auto; 
+    font-size: 20px;
+}
+
+.nav {
+    list-style-type: none; 
+    padding: 0;
+    display: flex; 
+    justify-content: center; 
+    flex-wrap: wrap;
+
+}
+
+.nav li {
+    margin: 0 15px; 
+}
+
+.nav li a {
+    text-decoration: none; 
+    color: #ffffff;
+    font-weight: bold;
+    padding: 10px 15px; 
+    border-radius: 5px; 
+    transition: background-color 0.3s; 
+    border-radius:50px;
+}
+
+.nav li a:hover {
+    background-color: #694851; 
+    border-radius:50px;
+}
+
+.nav li a.active {
+    background-color: #d00b67;
+    border-radius:50px; 
+}
+footer {
+    background-color: #e76e82;
+    width: 100%;
+    font-family: jak;
+    text-align: center;
+    padding: 10px 0;
+    position: absolute;
+    bottom: 0;
+    font-size: 1.2em;
+
+}
+footer p {
+    margin: 0;
+    color: #fff;
+    font-size: 1.2em;
+}
+.contact-info {
+    margin: 90px 0;
+    padding: 20px;
+width: 600px;
+    border-radius: 10px;
+    background-color: #fff;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    max-width: 600px;
+}
+.contact-info h2 {
+    color: #3d2a3e;
+}
+.contact-info p {
+    margin: 10px 0;
+    font-size: 1.2em;
+}
+
+footer p {
+    margin: 0;
+    color: #fff;
+}
+.social-icons {
+    margin-top: 20px;
+}
+.social-icons a {
+    color: #3d2a3e;
+    margin: 0 10px;
+    font-size: 1.5em;
+}

@@ -1,0 +1,217 @@
+
+@font-face {font-family:'jak';src: url('/fonts/jak.otf');}
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8d9da; /* Светлый фон */
+    color: #333; /* Темный текст */
+    margin: 0;
+    padding: 100px;
+}
+
+.main {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+footer {
+    background-color: #e76e82;
+    width: 100%;
+    font-family: jak;
+    text-align: center;
+    padding: 10px 0;
+    position: absolute;
+    bottom: 0;
+    font-size: 1.2em;
+header {
+    font-family: jak;
+    height: 100vh;
+    background-color: #ffb2b6; 
+    -webkit-background-size: cover;
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+}
+.navigation { 
+    position: fixed;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    
+    margin: 0 auto;
+    top: 5%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #e96f89;
+    border-radius: 50px;
+   
+  
+}
+
+
+.menu {
+    max-width: 1200px; 
+    margin: auto; 
+    font-size: 20px;
+}
+
+.nav {
+    list-style-type: none; 
+    padding: 0;
+    display: flex; 
+    justify-content: center; 
+    flex-wrap: wrap;
+
+}
+header {
+    font-family: jak;
+    height: 100vh;
+    background-color: #ffb2b6; 
+    -webkit-background-size: cover;
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+}
+.navigation { 
+    position: fixed;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    
+    margin: 0 auto;
+    top: 5%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #e96f89;
+    border-radius: 50px;
+   
+  
+}
+
+
+.menu {
+    max-width: 1200px; 
+    margin: auto; 
+    font-size: 20px;
+}
+
+.nav {
+    list-style-type: none; 
+    padding: 0;
+    display: flex; 
+    justify-content: center; 
+    flex-wrap: wrap;
+
+}
+
+.nav li {
+    margin: 0 15px; 
+}
+
+.nav li a {
+    text-decoration: none; 
+    color: #ffffff;
+    font-weight: bold;
+    padding: 10px 15px; 
+    border-radius: 5px; 
+    transition: background-color 0.3s; 
+    border-radius:50px;
+}
+
+.nav li a:hover {
+    background-color: #694851; 
+    border-radius:50px;
+}
+
+.nav li a.active {
+    background-color: #d00b67;
+    border-radius:50px; 
+}
+.nav li {
+    margin: 0 15px; 
+}
+
+.nav li a {
+    text-decoration: none; 
+    color: #ffffff;
+    font-weight: bold;
+    padding: 10px 15px; 
+    border-radius: 5px; 
+    transition: background-color 0.3s; 
+    border-radius:50px;
+}
+
+.nav li a:hover {
+    background-color: #694851; 
+    border-radius:50px;
+}
+
+.nav li a.active {
+    background-color: #d00b67;
+    border-radius:50px; 
+}
+}
+footer p {
+    margin: 0;
+    color: #fff;
+    font-size: 1.2em;
+}
+.div-photo {
+    margin-right: 20px;
+}
+
+.avatar {
+    width: 150px; /* Размер аватара */
+    height: 150px; /* Размер аватара */
+    border-radius: 50%; /* Круглая аватарка */
+    border: 2px solid #ff9a9e; /* Обводка аватарки */
+}
+
+.welcome-text {
+    font-weight: bold;
+    color: #ff6a6a; /* Цвет приветствия */
+}
+
+.form-avatar, .input-form {
+    margin-top: 20px;
+    padding: 15px;
+    background-color: #fff; /* Белый фон для форм */
+    border-radius: 8px; /* Скругленные края */
+    box-shadow: 0 0 10px rgba(161, 1, 14, 0.822); /* Тень */
+}
+
+.input {
+    margin-bottom: 10px;
+}
+
+input[type="text"], input[type="tel"], textarea {
+    width: 80%; /* Полная ширина */
+    padding: 10px; /* Отступы внутри полей */
+    border: 1px solid #ccc; /* Светлая рамка */
+    border-radius: 5px; /* Скругленные края */
+    margin-bottom: 10px; /* Отступ между полями */
+}
+
+input[type="file"] {
+    margin-bottom: 10px; /* Отступ */
+}
+
+.buttontext {
+    background-color: #ff9a9e; /* Цвет кнопок */
+    color: #fff; /* Белый текст */
+    border: none;
+    border-radius: 5px; /* Скругленные края */
+    padding: 10px 15px; /* Отступы */
+    cursor: pointer; /* Указатель курсора при наведении */
+    transition: background-color 0.3s;
+}
+
+.buttontext:hover {
+    background-color: #ff6a6a; /* Темнее при наведении */
+}
+
+
+button{
+box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}

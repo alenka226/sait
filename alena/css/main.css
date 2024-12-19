@@ -1,0 +1,111 @@
+
+@font-face {font-family:'jak';src: url('/fonts/jak.otf');}
+body {
+    background-color: #ffb2b6; /* Светлый персиковый фон */
+font-family: jak;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+   
+}
+header {
+    font-family: jak;
+    height: 100vh;
+    background-color: #ffb2b6; 
+    -webkit-background-size: cover;
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+}
+.navigation { 
+    position: fixed;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    
+    margin: 0 auto;
+    top: 5%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #e96f89;
+    border-radius: 50px;
+   
+  
+}
+
+
+.menu {
+    max-width: 1200px; 
+    margin: auto; 
+    font-size: 20px;
+}
+
+.nav {
+    list-style-type: none; 
+    padding: 0;
+    display: flex; 
+    justify-content: center; 
+    flex-wrap: wrap;
+
+}
+
+.nav li {
+    margin: 0 15px; 
+}
+
+.nav li a {
+    text-decoration: none; 
+    color: #ffffff;
+    font-weight: bold;
+    padding: 10px 15px; 
+    border-radius: 5px; 
+    transition: background-color 0.3s; 
+    border-radius:50px;
+}
+
+.nav li a:hover {
+    background-color: #694851; 
+    border-radius:50px;
+}
+
+.nav li a.active {
+    background-color: #d00b67;
+    border-radius:50px; 
+}
+.container {
+    text-align: center;
+}
+
+.donut-image {
+    width: 500px; 
+    margin-bottom: 20px;
+}
+footer {
+    background-color: #e76e82;
+    width: 100%;
+    font-family: jak;
+    text-align: center;
+    padding: 10px 0;
+    position: absolute;
+    bottom: 0;
+    font-size: 1.2em;
+
+}
+footer p {
+    margin: 0;
+    color: #fff;
+    font-size: 1.2em;
+}
+h1 {
+    color: #d5304b; /* Темный персиковый цвет для заголовка */
+    font-size: 2.5em; /* Размер шрифта для заголовка */
+}
+
+p {
+    color: #922020; /* Цвет для параграфа */
+    font-size: 1.2em; /* Размер шрифта для текста */
+}

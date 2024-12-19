@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Аккаунт</title>
+    <link rel="stylesheet" href="css/userpage.css" />
+</head>
+<style>
+    .upload-section {
+ 
+
+    align-items: center; /* Вертикальное центрирование */
+    margin-bottom: 20px; /* Отступ между секциями */
+}
+form {
+    margin: 30px;
+}
+    .buttontext {
+        margin-left: 10px;
+        padding: 10px 20px; 
+        font-size: 16px; 
+        border: none; 
+        border-radius: 5px; 
+       
+        color: white; 
+        cursor: pointer;
+        transition: background-color 0.3s; 
+    }
+
+    .buttontext:hover {
+        background-color:  #ff6a6a; 
+    }
+
+    .input {
+        margin-bottom: 15px;
+    }
+    .miu {
+        padding: 0;
+    }
+</style>
+
+<body>
+
+    <header>
+        <div class="navigation">  
+            <div class="menu">
+                    <ul class="nav">
+                        <li><a class="link" href="main.html">Главная</a></li>
+                        <li><a class="link" href="contacts.html">Контакты</a></li>
+                        <li><a class="link" href="aboutus.html">О нас</a></li>
+                        <li><a class="link" href="services.html">Пончики</a></li>
+                        
+                    </ul>
+                    </div>
+                    </div>
+                </header>	
+			
+
+    <form class="form-avatar" action="lib/ph.html" method="post" enctype="multipart/form-data">
+        <div class="upload-section">
+            <input class="buttontext" type="file" name="uploadfile">
+           
+            <div class="miu">
+            <button class="buttontext" type="submit" name="upload">Загрузить</button>
+            </div>
+        </div>
+    </form>
+    <center>
+    <form class="input-form">
+        <div class="input">
+            <input type="text" id="firstName" name="firstName" required placeholder="Ваше Имя"><br>
+            <input type="text" id="lastName" name="lastName" required placeholder="Ваша Фамилия"><br>
+            <input type="tel" id="phone" name="phone" required placeholder="Телефон"><br>
+            <textarea id="message" name="message" rows="4" placeholder="Комментарий" required></textarea><br>
+        </div>
+        <button class="buttontext" type="submit">Отправить</button>
+    </form>
+
+    <form>
+        <button class="buttontext" type="input">Выйти</button>
+    </form>
+    </center>
+</body>
+</html>
